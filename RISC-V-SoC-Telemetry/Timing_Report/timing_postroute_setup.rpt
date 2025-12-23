@@ -1,0 +1,38 @@
+*** timeDesign #5 [begin] () : totSession cpu/real = 2:10:03.8/5:57:48.4 (0.4), mem = 14811.0M
+**WARN: (IMPOPT-7139):	'setExtractRCMode -coupled false' has been implicitly activated since current delay calulation is under SIAware false mode.
+
+OptSummary:
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Setup views included:
+ view_typical 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.389  |  0.389  |  1.410  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|  7211   |  7098   |   215   |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |     73 (73)      |   -0.798   |     73 (73)      |
+|   max_tran     |     45 (45)      |   -0.538   |     45 (45)      |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 2.300%
+------------------------------------------------------------------
+Reported timing to dir ./timingReports
+Total CPU time: 6.12 sec
+Total Real time: 7.0 sec
+Total Memory Usage: 14810.964844 Mbytes
